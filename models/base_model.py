@@ -48,7 +48,7 @@ class BaseModel:
 
             else:
 
-            models.storage.new(self)
+                models.storage.new(self)
 
     def save(self):
 
