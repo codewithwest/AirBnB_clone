@@ -5,10 +5,8 @@
 from models.base_model import BaseModel
 
 
-
-
-
 class User(BaseModel):
+
 
 """Represent a User.
 
@@ -26,13 +24,10 @@ last_name (str): The last name of the user.
 
     """
 
+email = ""
 
+password = ""
 
-    email = ""
+first_name = ""
 
-    password = ""
-
-    first_name = ""
-
-    last_name = ""
-
+last_name = ""

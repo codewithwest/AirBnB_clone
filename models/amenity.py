@@ -5,11 +5,7 @@
 from models.base_model import BaseModel
 
 
-
-
-
 class Amenity(BaseModel):
-    
     """Represent an amenity.
 
 
@@ -19,7 +15,5 @@ class Amenity(BaseModel):
         name (str): The name of the amenity.
 
     """
-    
 
-    
     name = ""

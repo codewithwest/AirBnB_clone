@@ -5,11 +5,7 @@
 from models.base_model import BaseModel
 
 
-
-
-
 class City(BaseModel):
-    
     """Represent a city.
 
 
@@ -21,10 +17,7 @@ class City(BaseModel):
         name (str): The name of the city.
 
     """
-    
 
-    
     state_id = ""
-    
+
     name = ""
-    
